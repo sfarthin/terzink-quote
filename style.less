@@ -1,0 +1,65 @@
+@import "bower_components/lesshat/build/lesshat.less";
+@import "bower_components/foundation/css/foundation.css";
+
+form {
+	padding: 20px;
+
+
+	aside {
+		position: fixed;
+		width: 300px;		
+
+		img.preview {
+			max-width: 100%;
+			margin: auto;
+			display: block;
+		}
+	
+		.quote {
+			margin-top: 30px;
+			border-top: 1px solid #eee;
+			padding: 20px;
+		}
+	}
+
+	.options {
+		
+		margin-left: 300px;
+		
+		padding-left: 60px;
+	
+
+		input[type=text], input[type=number], select {
+			width: auto;
+		}
+
+		select {
+			padding-right: 30px;
+		}
+
+		.color-style select, .sizes div, .placement label, .garment select, .quote, .numColors div {
+			margin: 0px 20px 20px;
+		}
+
+		.sizes div, .placement label, .numColors div {
+			display: inline-block;
+		}
+
+		input[type=checkbox] {
+			margin-right: 5px;
+		}
+
+		.colorExample {
+			display: inline-block;
+			border: 1px solid #cccccc;
+			box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+
+			width: 100px;
+			height: 2.3125rem;
+
+			margin: 0px;
+
+			position: absolute;
+		}
+	}
+}

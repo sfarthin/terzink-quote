@@ -1,0 +1,852 @@
+{
+	"fleece-hoody": {
+		"hood": {
+			"colors": [
+				"white",
+				"sport-grey",
+				"sand",
+				"royal",
+				"red",
+				"purple",
+				"orange",
+				"navy",
+				"maroon",
+				"light-pink",
+				"light-blue",
+				"kiwi",
+				"irish-green",
+				"heliconia",
+				"gold",
+				"forest",
+				"dark-heather",
+				"dark-chocolate",
+				"cherry-red",
+				"carolina-blue",
+				"black",
+				"ash"
+			],
+			"description": "This hoody is an absolute classic and best seller. Wears well with comfort to boot. Features 7.75 ounce, 50/50 cotton/poly, double-needle stitching, double-lined hood with dyed-to-match drawcord, and (of course) a front pouch pocket. Available in youth sizes.",
+			"sizes": {
+				"S": "38-40",
+				"M": "42-44",
+				"L": "46-48",
+				"XL": "50-52",
+				"2XL": "54-56",
+				"3XL": "58-60",
+				"4XL": "60-62",
+				"5XL": "64-66"
+			},
+			"placement": {
+				"fc": "front center",
+				"bc": "back center",
+				"ls": "left sleeve",
+				"rs": "right sleeve",
+				"lc": "left chest",
+				"rc": "right chest",
+				"sw": "side wrap"
+			},
+			"price": 13
+		},
+		"heavyweight-hood": {
+			"colors": [
+				"white",
+				"sport-grey",
+				"safety-orange",
+				"safety-green",
+				"royal",
+				"red",
+				"orange",
+				"navy",
+				"maroon",
+				"forest",
+				"carolina-blue",
+				"cardinal-red",
+				"black",
+				"ash"
+			],
+			"description": "Identical to the regular hoody in every way except it’s 2 ounces heavier for added warmth. Features 9.3 ounce, 50/50 cotton/poly, double-needle stitching, double-lined hood with dyed-to-match drawcord, and (lest we forget) a front pouch pocket.",
+			"sizes": {
+				"S": "38-40",
+				"M": "42-44",
+				"L": "46-48",
+				"XL": "50-52",
+				"2XL": "54-56",
+				"3XL": "58-60"
+			},
+			"placement": {
+				"fc": "front center",
+				"bc": "back center",
+				"ls": "left sleeve",
+				"rs": "right sleeve",
+				"lc": "left chest",
+				"rc": "right chest",
+				"sw": "side wrap"
+			},
+			"price": 20			
+		},
+		"crew": {
+			"colors": [
+				"safety-orange",
+				"white",
+				"sport-grey",
+				"safety-green",
+				"royal",
+				"red",
+				"orange",
+				"navy",
+				"maroon",
+				"forest",
+				"cardinal-red",
+				"black",
+				"ash"
+			],
+			"description": "A thick and warm long sleeve sweatshirt for comfort while lounging or even during a workout! Features a 9.3 ounce, 50/50 cotton/poly blend with double-needle stitching and 1x1 rib knit with spandex in neck, cuffs and waistband. Available in youth sizes.",
+			"sizes": {
+				"S": "38-40",
+				"M": "42-44",
+				"L": "46-48",
+				"XL": "50-52",
+				"2XL": "54-56",
+				"3XL": "58-60"
+			},
+			"placement": {
+				"fc": "front center",
+				"bc": "back center",
+				"ls": "left sleeve",
+				"rs": "right sleeve",
+				"lc": "left chest",
+				"rc": "right chest",
+				"sw": "side wrap"
+			},
+			"price": 10
+		}
+	},
+	"bags": {
+		"tote": {
+			"colors": [
+				"red",
+				"navy",
+				"dark-green",
+				"black",
+				"natural"
+			],
+			"description": "Your basic carryall tote at a great value with different colored handles. Made of 100% cotton with reinforced stitching on the handles. Dimensions: 15.75\"h x 15.25\"w.",
+			"sizes": {
+
+			},
+			"placement": {
+				"fr": "front"
+			},
+			"price": 2
+		},
+		"cinch": {
+			"colors": [
+				"pink",
+				"royal",
+				"red",
+				"purple",
+				"navy",
+				"maroon",
+				"light-pink",
+				"kelly",
+				"hunter",
+				"charcoal",
+				"carolina-blue",
+				"brown",
+				"orange",
+				"lime",
+				"black",
+				"gold"
+			],
+			"description": "A staple for everyday use as a cinch pack or backpack. Made of nylon, these bags have a dyed-to-match drawcord and reinforced bottom grommets for durability. Dimensions: 16.5\"h x 14.5\"w.",
+			"sizes": {
+
+			},
+			"placement": {
+				"fr": "front"
+			},
+			"price": 2
+		}
+	},
+	"long-sleeve": {
+		"performance": {
+			"colors": [
+				"white",
+				"royal",
+				"red",
+				"navy",
+				"silver",
+				"maroon",
+				"forest",
+				"black"
+			],
+			"description": "Great for a workout. With a full athletic fit, this 3.8 ounce, 100% polyester long sleeve raglan lets you stretch and move while effectively managing moisture. Sweat is wicked away from the body, so you stay cooler and drier. Plus, this shirt fights odor so you can perform with confidence.",
+			"sizes": {
+				"XS": "32-34",
+				"S": "35-37",
+				"M": "38-40",
+				"L": "41-43",
+				"XL": "44-46",
+				"2XL": "47-49",
+				"3XL": "50-53",
+				"4XL": "54-57"
+			},
+			"placement": {
+				"fc": "front center",
+				"bc": "back center",
+				"ls": "left sleeve",
+				"rs": "right sleeve",
+				"lc": "left chest",
+				"rc": "right chest",
+				"sw": "side wrap"
+			},
+			"price": 8
+		},
+		"fashion-fitted": {
+			"colors": [
+				"white",
+				"olive",
+				"navy",
+				"heather-navy",
+				"heather-brown",
+				"deep-heather",
+				"dark-heather",
+				"cardinal-red",
+				"black",
+				"athletic-heather"
+			],
+			"description": "Walk in style with this super soft long sleeve. It just fits right! Made with 4.2 ounce 100% combed ring spun cotton with superior quality knit and finished with a ribbed cuff.",
+			"sizes": {
+				"XS": "37-39",
+				"S": "39-41",
+				"M": "41-43",
+				"L": "43-45",
+				"XL": "45-47",
+				"2XL": "47-49",
+				"3XL": "49-51"
+			},
+			"placement": {
+				"fc": "front center",
+				"bc": "back center",
+				"ls": "left sleeve",
+				"rs": "right sleeve",
+				"lc": "left chest",
+				"rc": "right chest",
+				"sw": "side wrap"
+			},
+			"price": 8
+		},
+		"100-cotton": {
+			"colors": [
+				"yellow",
+				"white",
+				"stonewashed-green",
+				"stonewashed-blue",
+				"sangria",
+				"sand",
+				"royal",
+				"red",
+				"purple",
+				"orange",
+				"navy",
+				"natural",
+				"lime",
+				"light-blue",
+				"kelly",
+				"gold",
+				"dark-green",
+				"dark-chocolate",
+				"charcoal",
+				"cardinal-red",
+				"black",
+				"maroon",
+				"athletic-heather",
+				"ash",
+				"aquatic"
+			],
+			"description": "This Heavyweight 6.1 ounce, 100% cotton long sleeve T sets the standard for comfort and versatility. Features a coverseamed neck,  shoulder-to-shoulder taping, rib knit cuffs, and a double-needle hem. Available in youth sizes.",
+			"sizes": {
+				"S": "34-36",
+				"M": "38-40",
+				"L": "42-44",
+				"XL": "46-48",
+				"2XL": "50-52",
+				"3XL": "54-56",
+				"4XL": "58-60"
+			},
+			"placement": {
+				"fc": "front center",
+				"bc": "back center",
+				"ls": "left sleeve",
+				"rs": "right sleeve",
+				"lc": "left chest",
+				"rc": "right chest",
+				"sw": "side wrap"
+			},
+			"price": 8
+		},
+		"thermal": {
+			"colors": [
+				"white",
+				"steel-blue",
+				"navy",
+				"maroon",
+				"granite",
+				"brown",
+				"black"
+			],
+			"description": "Thermals give you the length of a long sleeve and style like nothing else. This men's slightly fitted thermal features 4.5 ounce, 60% combed ring spun cotton/40% polyester 40 single mini thermal knit with a contrast reverse cover stitch at the neck, shoulder, armhole, sleeve and bottom hem. Fashionable when worn paired with short sleeve tees.",
+			"sizes": {
+				"XS": "37-39",
+				"S": "39-41",
+				"M": "41-43",
+				"L": "43-45",
+				"XL": "45-47",
+				"2XL": "47-49",
+				"3XL": "49-51"
+			},
+			"placement": {
+				"fc": "front center",
+				"bc": "back center",
+				"ls": "left sleeve",
+				"rs": "right sleeve",
+				"lc": "left chest",
+				"rc": "right chest",
+				"sw": "side wrap"
+			},
+			"price": 10
+		}
+	},
+	"shorts": {
+		"women": {
+			"colors": [
+				"white",
+				"royal",
+				"red",
+				"purple",
+				"pink",
+				"sport-grey",
+				"orange",
+				"navy",
+				"maroon",
+				"kelly",
+				"gold",
+				"dark-green",
+				"black"	
+			],
+			"description": "Your tight fitting, short legged, good for just about anything ladies Soffe shorts. Fabric consists of a 7 ounce 50/50 cotton/polyester jersey knit blend. Features include V-notch legs with 3\" inseam and 1¼\" exposed elastic waistband. Available in youth sizes.",
+			"sizes": {
+				"XS": "22-23",
+				"S": "23-25",
+				"M": "25-27",
+				"L": "28-30",
+				"XL": "30-32"
+			},
+			"placement": {
+				"bu": "butt",
+				"ll": "left leg",
+				"rl": "right leg"
+			},
+			"price": 6
+		},
+		"mesh": {
+			"colors": [
+				"white",
+				"silver",
+				"royal",
+				"red",
+				"purple",
+				"navy",
+				"maroon",
+				"vegas-gold",
+				"forest",
+				"black"
+			],
+			"description": "These unisex open hole mesh shorts are durable enough for the next sporting event or maybe just a run in the park. Made of 100% polyester with 8\" inseam, side entry pockets, and covered elastic waistband and drawstring.",
+			"sizes": {
+				"S": "28-30",
+				"M": "32-34",
+				"L": "36-38",
+				"XL": "40-42",
+				"2XL": "44-46",
+				"3XL": "48-50",
+				"4XL": "52-54",
+				"5XL": "55-57"
+			},
+			"placement": {
+				"bu": "butt",
+				"ll": "left leg",
+				"rl": "right leg"
+			},
+			"price": 8
+		},
+		"board": {
+			"colors": [
+				"red",
+				"navy",
+				"khaki",
+				"black",
+				"baliblue"
+			],
+			"description": "With water-friendly style, these quick-drying boardshorts are a trendy choice for resort wear, lifeguard apparel, or professional getaways. Made of 100% microfiber polyester, these shorts feature a beige drawstring and stitching as well as 4 pockets.",
+			"sizes": {
+				"XS": "28",
+				"S": "30",
+				"M": "32",
+				"L": "34",
+				"XL": "36",
+				"2XL": "38",
+				"3XL": "40",
+				"4XL": "42"
+			},
+			"placement": {
+				"bu": "butt",
+				"ll": "left leg",
+				"rl": "right leg"
+			},
+			"price": 12
+		}
+	},
+	"sweatpants": {
+		"women": {
+			"colors": [
+				"white",
+				"red",
+				"pink",
+				"navy",
+				"dark-heather",
+				"black",
+				"baby-blue"
+			],
+			"description": "Made stylishly to fit women, these 7.5 ounce, 100% combed ring spun cotton sweatpants are the pinnacle of fashion and softness. Undeniably cozy with straight wide bottom legs and easy drawstring waistband.",
+			"sizes": {
+				"S": "30-31",
+				"M": "31-32",
+				"L": "32-33",
+				"XL": "33.5-34",
+				"2XL": "34-34.5"
+			},
+			"placement": {
+				"bu": "butt",
+				"ll": "left leg",
+				"rl": "right leg"
+			},
+			"price": 10
+		},
+		"unisex": {
+			"colors": [
+				"maroon",
+				"sport-grey",
+				"royal",
+				"red",
+				"navy",
+				"black",
+				"ash"
+			],
+			"description": "These unisex sweatpants a great for lounging and comfort. Features include fashionable open bottoms, pockets, and a covered elastic waistband and drawstring for added fitting. Fabric consists of a 9.3 ounce 50% cotton/50% polyester blend.",
+			"sizes": {
+				"S": "24-26",
+				"M": "28-29",
+				"L": "30-31",
+				"XL": "32-33",
+				"2XL": "36-37"
+			},
+			"placement": {
+				"bu": "butt",
+				"ll": "left leg",
+				"rl": "right leg"
+			},
+			"price": 10
+		}
+	},
+	"tanks": {
+		"women": {
+			"colors": [
+				"white",
+				"soft-pink",
+				"seafoam",
+				"red",
+				"raspberry",
+				"purple",
+				"pink",
+				"orange",
+				"navy",
+				"lilac",
+				"light-aqua",
+				"leaf",
+				"kelly",
+				"dark-heather",
+				"currant",
+				"chocolate",
+				"black",
+				"berry",
+				"army"
+			],
+			"description": "Wide straps and a fitted body make this classic style a favorite. Self-binding on neck and armhole and made of 5.8 ounce, 100% cotton, 30 single combed ring spun soft 1x1 baby rib knit.",
+			"sizes": {
+				"S": "31-33",
+				"M": "34-36",
+				"L": "37-39",
+				"XL": "39-41",
+				"2XL": "41-43"
+			},
+			"placement": {
+				"fc": "front center",
+				"bc": "back center",
+				"lc": "left chest",
+				"rc": "right chest",
+				"sw": "side wrap"
+			},
+			"price": 6
+		},
+		"men": {
+			"colors": [
+				"white",
+				"sport-grey",
+				"royal",
+				"red",
+				"navy",
+				"black",
+				"ash"
+			],
+			"description": "With an open U-neck and easy fit, this top can be worn layered or alone. Features 6.1 ounce, 100% cotton (preshrunk), banded neck and armholes, and a double-needle hem.",
+			"sizes": {
+				"S": "34-36",
+				"M": "38-40",
+				"L": "42-44",
+				"XL": "46-48",
+				"2XL": "50-52"
+			},
+			"placement": {
+				"fc": "front center",
+				"bc": "back center",
+				"lc": "left chest",
+				"rc": "right chest",
+				"sw": "side wrap"
+			},
+			"price": 6
+		}
+	},
+	"undies": {
+		"thongs": {
+			"colors": [
+				"white",
+				"turquoise",
+				"red",
+				"pink",
+				"orange",
+				"fuchsia",
+				"currant",
+				"black",
+				"baby-blue"
+			],
+			"description": "Sexy and seductive, this  6.5 ounce classic fit style bikini from Bella sports comfort and, of course,  fashion for everyday wear. Features a double-needle satin trim folded over elastic for a superior fit. Made of 95% cotton/5% spandex.",
+			"sizes": {
+				"S": "0-4",
+				"M": "4-6",
+				"L": "6-10",
+				"XL": "10-14"
+			},
+			"placement": {
+				"fr": "front"
+			},
+			"price": 6
+		},
+		"boxers": {
+			"colors": [
+				"white",
+				"navy",
+				"hunter",
+				"athletic-heather",
+				"black"
+			],
+			"description": "Wear these relaxed fit boxers everyday! Great for lounging and sleep, and under your clothes anytime! Features a 4.3 ounce., 100% cotton knit with button fly front.",
+			"sizes": {
+				"S": "28-30",
+				"M": "32-34",
+				"L": "36-38",
+				"XL": "40-42",
+				"2XL": "44-46"
+			},
+			"placement": {
+				"bu": "butt",
+				"ll": "left leg",
+				"rl": "right leg"
+			},
+			"price": 5
+		},
+		"boy-shorts": {
+			"colors": [
+				"white",
+				"turquoise",
+				"red",
+				"pink",
+				"orange",
+				"leaf",
+				"fuchsia",
+				"currant",
+				"chocolate",
+				"black",
+				"baby-blue"
+			],
+			"description": "Show off in fun, super sexy undies by Bella. Made of 6.5 a ounce cotton/spandex blend with satin trim fold over elastic waistband and hip hugger styling, these fashionable underwear are comfortable for everyday wear.",
+			"sizes": {
+				"S": "0-4",
+				"M": "4-6",
+				"L": "6-10",
+				"XL": "10-14"
+			},
+			"placement": {
+				"bu": "butt",
+				"ll": "left leg",
+				"rl": "right leg"
+			},
+			"price": 6
+		}
+	},
+	"tshirt": {
+		"100-cotton": {
+			"colors": [
+				"yellow-haze",
+				"white",
+				"violet",
+				"vegas-gold",
+				"texas-orange",
+				"tangerine",
+				"tan",
+				"stone-blue",
+				"sport-grey",
+				"sky",
+				"serene-green",
+				"sapphire",
+				"sand",
+				"safety-orange",
+				"safety-green",
+				"royal",
+				"red",
+				"purple",
+				"prairie-dust",
+				"pistachio",
+				"orange",
+				"olive",
+				"navy",
+				"natural",
+				"military-green",
+				"metro-blue",
+				"maroon",
+				"lime",
+				"light-pink",
+				"light-blue",
+				"kiwi",
+				"kelly",
+				"jade-dome",
+				"irish-green",
+				"iris",
+				"indigo-blue",
+				"ice-grey",
+				"heliconia",
+				"gold",
+				"forest",
+				"dark-heather",
+				"dark-chocolate",
+				"daisy",
+				"chestnut",
+				"cherry-red",
+				"charcoal",
+				"cedar",
+				"carolina-blue",
+				"cardinal-red",
+				"blue-dusk",
+				"black",
+				"azalea",
+				"ash"
+			],
+			"description": "Your everyday, get-the-job-done, affordable and, most importantly, durable Heavyweight 6.1-ounce, 100% cotton (preshrunk) shirt. Designed to impress but not break the bank. Features Shoulder-toshoulder taping, Coverseamed neck, and Double-needle hem. Also available in ladies and youth sizes.",
+			"sizes": {
+				"S": "34-36",
+				"M": "38-40",
+				"L": "42-44",
+				"XL": "46-48",
+				"2XL": "50-52",
+				"3XL": "54-56",
+				"4XL": "58-60",
+				"5XL": "62-64"
+			},
+			"placement": {
+				"fc": "front center",
+				"bc": "back center",
+				"ls": "left sleeve",
+				"rs": "right sleeve",
+				"lc": "left chest",
+				"rc": "right chest",
+				"sw": "side wrap"
+			},
+			"price": 4
+		},
+		"50-50": {
+			"colors": [
+				"white",
+				"sport-grey",
+				"sapphire",
+				"royal",
+				"red",
+				"purple",
+				"orange",
+				"navy",
+				"maroon",
+				"lime",
+				"light-blue",
+				"kelly",
+				"heliconia",
+				"gold",
+				"forest",
+				"dark-chocolate",
+				"daisy",
+				"black",
+				"ash"
+			],
+			"description": "50% cotton and 50% polyester. These 5.6 ounce shirts feature double-needle sleeves and hem as well as a taped neck and shoulders. 50/50 shirts tend to feel a bit lighter than 100% cotton and sustain less shrinkage! Great for hot days as they breathe well too! Also available in ladies and youth sizes.",
+			"sizes": {
+				"S": "34-36",
+				"M": "38-40",
+				"L": "42-44",
+				"XL": "46-48",
+				"2XL": "50-52",
+				"3XL": "54-56",
+				"4XL": "58-60",
+				"5XL": "62-64"
+			},
+			"placement": {
+				"fc": "front center",
+				"bc": "back center",
+				"ls": "left sleeve",
+				"rs": "right sleeve",
+				"lc": "left chest",
+				"rc": "right chest",
+				"sw": "side wrap"
+			},
+			"price": 4
+		},
+		"fashion-fitted": {
+			"colors": [
+				"white",
+				"royal",
+				"purple",
+				"teal",
+				"steel-blue",
+				"soft-pink",
+				"silver",
+				"pebble",
+				"olive",
+				"ocean",
+				"navy",
+				"maroon",
+				"yellow",
+				"light-blue",
+				"leaf",
+				"kelly",
+				"evergreen",
+				"deep-teal",
+				"dark-heather",
+				"red",
+				"texas-orange",
+				"brown",
+				"black",
+				"berry",
+				"sport-grey",
+				"asphalt"
+			],
+			"description": "Fits great and they don’t come any softer! A superior quality knit jersey tailored into a modern slightly fitted basic unisex tee. 100% combed ring spun cotton, 4.2 ounce super soft 30 single baby jersey knit.",
+			"sizes": {
+				"XS": "37-39",
+				"S": "39-41",
+				"M": "41-43",
+				"L": "43-45",
+				"XL": "45-47",
+				"2XL": "47-49",
+				"3XL": "49-51"
+			},
+			"placement": {
+				"fc": "front center",
+				"bc": "back center",
+				"ls": "left sleeve",
+				"rs": "right sleeve",
+				"lc": "left chest",
+				"rc": "right chest",
+				"sw": "side wrap"
+			},
+			"price": 6
+		},
+		"vneck": {
+			"colors": [
+				"royal",
+				"steel-blue-vneck",
+				"navy",
+				"heather-navy",
+				"heather-green",
+				"heather-brown",
+				"deep-heather",
+				"red",
+				"brown",
+				"black",
+				"sport-grey"
+			],
+			"description": "Sophisticated and tailored, this jersey V-neck can be worn as a casual basic or as an undershirt with a button-up collar shirt. Made of 4.2 ounce, 100% combed ring spun cotton soft 30 single baby jersey knit. Soft as a baby’s bottom!",
+			"sizes": {
+				"XS": "37-39",
+				"S": "39-41",
+				"M": "41-43",
+				"L": "43-45",
+				"XL": "45-47",
+				"2XL": "47-49",
+				"3XL": "49-51"
+			},
+			"placement": {
+				"fc": "front center",
+				"bc": "back center",
+				"ls": "left sleeve",
+				"rs": "right sleeve",
+				"lc": "left chest",
+				"rc": "right chest",
+				"sw": "side wrap"
+			},
+			"price": 6
+		},
+		"performance": {
+			"colors": [
+				"white",
+				"royal",
+				"red",
+				"navy",
+				"silver",
+				"purple",
+				"maroon",
+				"kelly",
+				"gold",
+				"forest",
+				"black"
+			],
+			"description": "Great for a workout. With a full athletic fit, this 3.8 ounce, 100% polyester  raglan lets you stretch and move while effectively managing moisture. Sweat is wicked away from the body, so you stay cooler and drier. Plus, this shirt fights odor so you can perform with confidence. Available in ladies and youth sizes.",
+			"sizes": {
+				"XS": "32-34",
+				"S": "35-37",
+				"M": "38-40",
+				"L": "41-43",
+				"XL": "44-46",
+				"2XL": "47-49",
+				"3XL": "50-53",
+				"4XL": "54-57"
+			},
+			"placement": {
+				"fc": "front center",
+				"bc": "back center",
+				"ls": "left sleeve",
+				"rs": "right sleeve",
+				"lc": "left chest",
+				"rc": "right chest",
+				"sw": "side wrap"
+			},
+			"price": 9
+		}
+	}
+}
