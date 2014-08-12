@@ -3,7 +3,8 @@ require.config({
 		angular: { exports: 'angular' },
 		"angular-route": { deps: ['angular'] },
 		"checklist-model": { deps: ['angular'] },
-		lodash: { exports: "_" }
+		lodash: { exports: "_" },
+		numeral: { exports: "numeral" }
 	},
 	map: {
 	  '*': {
@@ -18,6 +19,7 @@ require.config({
 		angular: 'bower_components/angular/angular',
 		jade: 	 'bower_components/require-jade/jade',
 		lodash:  'bower_components/lodash/dist/lodash',
+		numeral:  'bower_components/numeral/numeral',
 		
 		"angular-route": 'bower_components/angular-route/angular-route',
 		

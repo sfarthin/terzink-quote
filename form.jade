@@ -15,8 +15,9 @@ form.order(ng-controller="QuoteCtrl")
 		img.preview(src="img/apparel/{{order.garment}}/{{order.style}}/{{order.color}}.jpg",ng-show="order.garment && order.style && order.color")
 		img.preview(src="img/logo.jpg",ng-show="!(order.garment && order.style && order.color)")
 		.quote(ng-show="order.garment && order.style && order.color")
-			p Price per piece: {{ calculator.pricePerShirt(order) | priceFilter }}
-			p Total order price: {{ calculator.totalCost(order) | priceFilter }}
+			p Total pieces: {{ numeral(calculator.totalPieces(order)).format('0,0') }}
+			p {{ calculator.pricePerPiece(order) | pricePerPieceFilter }}
+			p {{ calculator.totalCost(order) | priceFilter }}
 
 	.options
 
