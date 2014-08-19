@@ -4,7 +4,8 @@ require.config({
 		"angular-route": { deps: ['angular'] },
 		"checklist-model": { deps: ['angular'] },
 		lodash: { exports: "_" },
-		numeral: { exports: "numeral" }
+		numeral: { exports: "numeral" },
+		jquery: { exports: "jQuery" }
 	},
 	map: {
 	  '*': {
@@ -20,6 +21,7 @@ require.config({
 		jade: 	 'bower_components/require-jade/jade',
 		lodash:  'bower_components/lodash/dist/lodash',
 		numeral:  'bower_components/numeral/numeral',
+		jquery:  'bower_components/jquery/dist/jquery',
 		
 		"angular-route": 'bower_components/angular-route/angular-route',
 		

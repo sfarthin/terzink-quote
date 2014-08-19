@@ -1,4 +1,7 @@
-define(['angular', 'lodash', 'numeral', 'jade!form', 'json!apparel.json', 'json!hexcolor.json', 'calculator', 'less!style', 'angular-route', 'checklist-model'], 
+define([
+	'angular', 'lodash', 'numeral', 'jade!form', 
+	'json!apparel.json', 'json!hexcolor.json', 'calculator', 
+	'less!style', 'angular-route', 'checklist-model'], 
 function(angular, _, numeral, form, apparel, hexColor, calculator) {
 	
 	// Copy our template in there
