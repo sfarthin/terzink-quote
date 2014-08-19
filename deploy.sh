@@ -1,13 +1,16 @@
-# go to the gh-pages branch
+# Go to the gh-pages branch
 git checkout gh-pages 
 
-# bring gh-pages up to date with master
+# Bring gh-pages up to date with master
 git rebase master
 
-# optimize JS and overwrite bootstrap
+# Optimize JS and overwrite bootstrap
 node ./node_modules/requirejs/bin/r.js -o name=app mainConfigFile=config.js out=bootstrap.js baseUrl=.
 
-# commit the changes
+# Commit changes
+git commit -m "App updated" bootstrap.js
+
+# Push changes
 git push origin gh-pages 
 
 # return to the master branch
