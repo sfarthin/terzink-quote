@@ -2,7 +2,7 @@
 git checkout gh-pages 
 
 # Bring gh-pages up to date with master
-git rebase master
+git rebase --skip master
 
 # Optimize JS and overwrite bootstrap
 cat app.js > bootstrap.js
