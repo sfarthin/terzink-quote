@@ -1,6 +1,6 @@
 # Terzink Quote Generator
 
-This web app generates quotes for screen printing orders based on this [http://www.terzink.com/#!getta-quote/c3xu](non-trival pricing method). Angularjs is used to keep order prices updated in realtime and encoded into the URL of the page so every step can be shared by copying the web address in the address bar. This example uses [Require.js](http://requirejs.org/) to combine and organize the [Foundation](http://foundation.zurb.com/) CSS, LESS, jade, json, and js libraries. Using require.js requires no build process to function, but can be optimized into one file when deploying using [r.js](http://requirejs.org/docs/optimization.html) (see below).
+This web app generates quotes for screen printing orders based on this [non-trival pricing method](http://www.terzink.com/#!getta-quote/c3xu). Angular.js is used to keep order prices updated in realtime and encoded into the URL of the page so every step can be shared by copying the web address in the address bar. This example uses [Require.js](http://requirejs.org/) to combine and organize the [Foundation](http://foundation.zurb.com/) CSS, LESS, jade, json, and other JS libraries. Using Require.js requires no build process or other tool when developing, but can be optimized into one file when deploying using [r.js](http://requirejs.org/docs/optimization.html) (see below).
 
 
 ### Optimizing
