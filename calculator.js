@@ -1,4 +1,4 @@
-define(["lodash", "json!apparel.json", "json!printing.json"], function(_, apparel, printingCosts) {	
+define(["lodash", "json!data/apparel.json", "json!data/printing.json"], function(_, apparel, printingCosts) {	
 	
 	var Calculator = {
 		totalCost: function(order) {

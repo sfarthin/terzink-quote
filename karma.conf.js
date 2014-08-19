@@ -12,10 +12,14 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-		"www/config.js", 
+		"config.js", 
 		"karma-requirejs.js",
-		{pattern: 'www/**/*', included: false}
+		{pattern: '**/*', included: false}
     ],
+	
+	exclude: [
+		"karma.conf.js",
+	],
 
     reporters: ['progress'],
 

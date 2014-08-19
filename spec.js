@@ -1,4 +1,4 @@
-define(["jquery", "lodash", "calculator", "json!apparel.json"], function($, _, Calculator, apparel) {
+define(["jquery", "lodash", "calculator", "json!data/apparel.json"], function($, _, Calculator, apparel) {
 	
 	describe("Calculator", function() {
 		
