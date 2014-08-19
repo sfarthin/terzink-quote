@@ -10,8 +10,8 @@
     "type": "git",
     "url": "https://sfarthin@github.com/sfarthin/terzink-quote.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Steve Farthing <me@stevefar.com>",
+  "license": "GPL",
   "bugs": {
     "url": "https://github.com/sfarthin/terzink-quote/issues"
   },
