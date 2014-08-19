@@ -4,7 +4,9 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "./node_modules/karma/bin/karma start ./karma.conf.js"
+    "test": "./node_modules/karma/bin/karma start ./karma.conf.js",
+	"optimize": "cat app.js > bootstrap.js && node ./node_modules/requirejs/bin/r.js -o name=bootstrap mainConfigFile=config.js out=bootstrap.js baseUrl=.",
+	"develop": "echo 'define([\"config\"], function() { require([\"app\"]); })' > bootstrap.js"
   },
   "repository": {
     "type": "git",
