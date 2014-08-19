@@ -1,3 +1,3 @@
-require(["config"], function() { 
+define(["config"], function() { 
 	require(["app"]); 
 });
