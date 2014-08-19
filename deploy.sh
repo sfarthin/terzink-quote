@@ -5,7 +5,8 @@ git checkout gh-pages
 git rebase master
 
 # Optimize JS and overwrite bootstrap
-node ./node_modules/requirejs/bin/r.js -o name=app mainConfigFile=config.js out=bootstrap.js baseUrl=.
+cat app.js > bootstrap.js
+node ./node_modules/requirejs/bin/r.js -o name=bootstrap mainConfigFile=config.js out=bootstrap.js baseUrl=.
 
 # Commit changes
 git commit -m "App updated" bootstrap.js
