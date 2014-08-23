@@ -11,19 +11,31 @@ function(angular, _, numeral, form, apparel, hexColor, calculator) {
 		
 		.controller('QuoteCtrl', ['$scope', function($scope) {
 			
-			try {
-				$scope.order = JSON.parse(window.location.hash.substring(1));
+			$scope.loadFromHash = function() {
+				try {
+					$scope.order = JSON.parse(window.location.hash.substring(1));
 
-				if($scope.order && $scope.order.prints) {
-					$scope.placements = {};
-					$scope.placements[$scope.order.garment+$scope.order.style] = _.keys($scope.order.prints);
-				}
+					if($scope.order && $scope.order.prints) {
+						$scope.placements = {};
+						$scope.placements[$scope.order.garment+$scope.order.style] = _.keys($scope.order.prints);
+					}
 				
-				$scope.firstLoad = true;
-			} catch(e) {
-				$scope.order = {};
-				$scope.placements = {};
+					$scope.firstLoad = true;
+				} catch(e) {
+					$scope.order = {};
+					$scope.placements = {};
+				}
 			}
+			
+			$scope.hash = window.location.hash;
+			$scope.loadFromHash();
+			
+			// Lets watch the hash
+			setInterval(function() {
+				if($scope.hash != window.location.hash) {
+					$scope.$apply($scope.loadFromHash);
+				}
+			}, 100);
 			
 			$scope.hexColor = hexColor;
 			$scope.apparel = apparel;
@@ -60,6 +72,7 @@ function(angular, _, numeral, form, apparel, hexColor, calculator) {
 			
 			$scope.$watch("order", function() {
 				window.location.hash = JSON.stringify($scope.order);
+				$scope.hash = window.location.hash;
 			}, true);
 			
 		}])
