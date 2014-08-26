@@ -39,4 +39,19 @@ No standalone selenium server needed. See e2e.js
 
 	$ protractor
 
-screenshots are generated and put in the screenshots directory
+This process generates screenshots automatically:
+
+* * * 
+![](https://raw.githubusercontent.com/sfarthin/terzink-quote/master/screenshots/1-start.png)
+* * * 
+![](https://raw.githubusercontent.com/sfarthin/terzink-quote/master/screenshots/2-garment.png)
+* * * 
+![](https://raw.githubusercontent.com/sfarthin/terzink-quote/master/screenshots/3-type.png)
+* * * 
+![](https://raw.githubusercontent.com/sfarthin/terzink-quote/master/screenshots/4-color.png)
+* * * 
+![](https://raw.githubusercontent.com/sfarthin/terzink-quote/master/screenshots/5-quantity.png)
+* * * 
+![](https://raw.githubusercontent.com/sfarthin/terzink-quote/master/screenshots/6-placement.png)
+* * * 
+![](https://raw.githubusercontent.com/sfarthin/terzink-quote/master/screenshots/7-number-of-colors.png)
