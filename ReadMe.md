@@ -26,7 +26,17 @@ This app is pushed to a github project page as shown below
 
 ### Testing
 
-Karma/mocha/chai is used for testing. See spec.js for tests.
+##### Karma
+
+Mocha/chai is used for unit testing. See spec.js.
 
 	$ npm install
 	$ npm test
+
+##### Protractor
+
+No standalone selenium server needed. See e2e.js
+
+	$ protractor
+
+screenshots are generated and put in the screenshots directory
