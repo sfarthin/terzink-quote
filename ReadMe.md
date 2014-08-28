@@ -37,6 +37,8 @@ Mocha/chai is used for unit testing. See spec.js.
 
 No standalone selenium server needed. See e2e.js
 
+	$ npm install
+	$ npm install -g protractor
 	$ protractor
 
 This process generates screenshots automatically:
